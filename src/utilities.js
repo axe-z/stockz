@@ -41,7 +41,7 @@ export const retrieveBusinessData = async (stock) => {
 	//si call depasse le max alloué. je n ai pas le temps pour batir un systeme de blocage plus avancé.
 	//c'est complex quand un systeme block par par acces denied, un backend ferait pas ca...
 	else {
-		alert(`${stock.toUpperCase()} might not exist on the markets - try again`)
+		alert(`${stock.toUpperCase()} might not exist on the markets - try again in 10sec.`)
 	}
 }
 
