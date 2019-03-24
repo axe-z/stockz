@@ -1,0 +1,965 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header va loader devrait partir en debug 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header
+    debug={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="header"
+      >
+        <h1>
+          stockz 
+          <span>
+            ®
+          </span>
+        </h1>
+        <div
+          className="current"
+          style={
+            Object {
+              "transform": "translateX(150px)",
+            }
+          }
+        >
+          <div
+            className="headerInfo"
+          >
+            <h6
+              className="name"
+            />
+            <h6
+              className="valeur"
+            />
+            <p>
+              last updated:
+            </p>
+            <h6
+              className="date"
+            />
+          </div>
+        </div>
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            stockz 
+            <span>
+              ®
+            </span>
+          </h1>,
+          <div
+            className="current"
+            style={
+              Object {
+                "transform": "translateX(150px)",
+              }
+            }
+          >
+            <div
+              className="headerInfo"
+            >
+              <h6
+                className="name"
+              />
+              <h6
+                className="valeur"
+              />
+              <p>
+                last updated:
+              </p>
+              <h6
+                className="date"
+              />
+            </div>
+          </div>,
+        ],
+        "className": "header",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "stockz ",
+              <span>
+                ®
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "stockz ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "®",
+              },
+              "ref": null,
+              "rendered": "®",
+              "type": "span",
+            },
+          ],
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="headerInfo"
+            >
+              <h6
+                className="name"
+              />
+              <h6
+                className="valeur"
+              />
+              <p>
+                last updated:
+              </p>
+              <h6
+                className="date"
+              />
+            </div>,
+            "className": "current",
+            "style": Object {
+              "transform": "translateX(150px)",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h6
+                  className="name"
+                />,
+                <h6
+                  className="valeur"
+                />,
+                <p>
+                  last updated:
+                </p>,
+                <h6
+                  className="date"
+                />,
+              ],
+              "className": "headerInfo",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "name",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "h6",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "valeur",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "h6",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "last updated:",
+                },
+                "ref": null,
+                "rendered": "last updated:",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "date",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "h6",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="header"
+        >
+          <h1>
+            stockz 
+            <span>
+              ®
+            </span>
+          </h1>
+          <div
+            className="current"
+            style={
+              Object {
+                "transform": "translateX(150px)",
+              }
+            }
+          >
+            <div
+              className="headerInfo"
+            >
+              <h6
+                className="name"
+              />
+              <h6
+                className="valeur"
+              />
+              <p>
+                last updated:
+              </p>
+              <h6
+                className="date"
+              />
+            </div>
+          </div>
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1>
+              stockz 
+              <span>
+                ®
+              </span>
+            </h1>,
+            <div
+              className="current"
+              style={
+                Object {
+                  "transform": "translateX(150px)",
+                }
+              }
+            >
+              <div
+                className="headerInfo"
+              >
+                <h6
+                  className="name"
+                />
+                <h6
+                  className="valeur"
+                />
+                <p>
+                  last updated:
+                </p>
+                <h6
+                  className="date"
+                />
+              </div>
+            </div>,
+          ],
+          "className": "header",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "stockz ",
+                <span>
+                  ®
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "stockz ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "®",
+                },
+                "ref": null,
+                "rendered": "®",
+                "type": "span",
+              },
+            ],
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="headerInfo"
+              >
+                <h6
+                  className="name"
+                />
+                <h6
+                  className="valeur"
+                />
+                <p>
+                  last updated:
+                </p>
+                <h6
+                  className="date"
+                />
+              </div>,
+              "className": "current",
+              "style": Object {
+                "transform": "translateX(150px)",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h6
+                    className="name"
+                  />,
+                  <h6
+                    className="valeur"
+                  />,
+                  <p>
+                    last updated:
+                  </p>,
+                  <h6
+                    className="date"
+                  />,
+                ],
+                "className": "headerInfo",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                    "className": "name",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "h6",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                    "className": "valeur",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "h6",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "last updated:",
+                  },
+                  "ref": null,
+                  "rendered": "last updated:",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                    "className": "date",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "h6",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Header va loader devrait renderer sans props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="header"
+      >
+        <h1>
+          stockz 
+          <span>
+            ®
+          </span>
+        </h1>
+        <div
+          className="current"
+          style={
+            Object {
+              "transform": "translateX(150px)",
+            }
+          }
+        >
+          <div
+            className="headerInfo"
+          >
+            <h6
+              className="name"
+            />
+            <h6
+              className="valeur"
+            />
+            <p>
+              last updated:
+            </p>
+            <h6
+              className="date"
+            />
+          </div>
+        </div>
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            stockz 
+            <span>
+              ®
+            </span>
+          </h1>,
+          <div
+            className="current"
+            style={
+              Object {
+                "transform": "translateX(150px)",
+              }
+            }
+          >
+            <div
+              className="headerInfo"
+            >
+              <h6
+                className="name"
+              />
+              <h6
+                className="valeur"
+              />
+              <p>
+                last updated:
+              </p>
+              <h6
+                className="date"
+              />
+            </div>
+          </div>,
+        ],
+        "className": "header",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "stockz ",
+              <span>
+                ®
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "stockz ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "®",
+              },
+              "ref": null,
+              "rendered": "®",
+              "type": "span",
+            },
+          ],
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="headerInfo"
+            >
+              <h6
+                className="name"
+              />
+              <h6
+                className="valeur"
+              />
+              <p>
+                last updated:
+              </p>
+              <h6
+                className="date"
+              />
+            </div>,
+            "className": "current",
+            "style": Object {
+              "transform": "translateX(150px)",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h6
+                  className="name"
+                />,
+                <h6
+                  className="valeur"
+                />,
+                <p>
+                  last updated:
+                </p>,
+                <h6
+                  className="date"
+                />,
+              ],
+              "className": "headerInfo",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "name",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "h6",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "valeur",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "h6",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "last updated:",
+                },
+                "ref": null,
+                "rendered": "last updated:",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "date",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "h6",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="header"
+        >
+          <h1>
+            stockz 
+            <span>
+              ®
+            </span>
+          </h1>
+          <div
+            className="current"
+            style={
+              Object {
+                "transform": "translateX(150px)",
+              }
+            }
+          >
+            <div
+              className="headerInfo"
+            >
+              <h6
+                className="name"
+              />
+              <h6
+                className="valeur"
+              />
+              <p>
+                last updated:
+              </p>
+              <h6
+                className="date"
+              />
+            </div>
+          </div>
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1>
+              stockz 
+              <span>
+                ®
+              </span>
+            </h1>,
+            <div
+              className="current"
+              style={
+                Object {
+                  "transform": "translateX(150px)",
+                }
+              }
+            >
+              <div
+                className="headerInfo"
+              >
+                <h6
+                  className="name"
+                />
+                <h6
+                  className="valeur"
+                />
+                <p>
+                  last updated:
+                </p>
+                <h6
+                  className="date"
+                />
+              </div>
+            </div>,
+          ],
+          "className": "header",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "stockz ",
+                <span>
+                  ®
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "stockz ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "®",
+                },
+                "ref": null,
+                "rendered": "®",
+                "type": "span",
+              },
+            ],
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="headerInfo"
+              >
+                <h6
+                  className="name"
+                />
+                <h6
+                  className="valeur"
+                />
+                <p>
+                  last updated:
+                </p>
+                <h6
+                  className="date"
+                />
+              </div>,
+              "className": "current",
+              "style": Object {
+                "transform": "translateX(150px)",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h6
+                    className="name"
+                  />,
+                  <h6
+                    className="valeur"
+                  />,
+                  <p>
+                    last updated:
+                  </p>,
+                  <h6
+                    className="date"
+                  />,
+                ],
+                "className": "headerInfo",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                    "className": "name",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "h6",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                    "className": "valeur",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "h6",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "last updated:",
+                  },
+                  "ref": null,
+                  "rendered": "last updated:",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                    "className": "date",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "h6",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
