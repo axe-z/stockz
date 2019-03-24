@@ -37,49 +37,64 @@ export const retrieveBusinessData = async (stock) => {
 		});
 	}
 	// console.log(stockDataHolder)
-	 if (stockDataHolder.length > 0) return stockDataHolder // retourne async
-		//si call depasse le max alloué. je n ai pas le temps pour batir un systeme de blocage.
-		//c'est complex quand un systeme block par par acces denied.
-		else {
-	 	 alert(`${stock.toUpperCase()} might not exist on the markets - try again`)
-		}
-
+	if (stockDataHolder.length > 0) return stockDataHolder // retourne async
+	//si call depasse le max alloué. je n ai pas le temps pour batir un systeme de blocage plus avancé.
+	//c'est complex quand un systeme block par par acces denied, un backend ferait pas ca...
+	else {
+		alert(`${stock.toUpperCase()} might not exist on the markets - try again`)
+	}
 }
 
 
 //jsx icon et % profit
-const returnText = (taux,imageSvg) => (<>
-	<span className="verdict">{taux} %</span> <span className="logoVerdict"><img src={imageSvg} alt="logo" width="90px" /></span>
-</>)
+const returnText = (taux,imageSvg) => (
+	<>
+		<span className="verdict">{taux} %</span>{" "}
+		<span className="logoVerdict">
+			<img src={imageSvg} alt="logo" width="90px" />
+		</span>
+	</>
+);
 
 //differents scenarios pour facebook ou twitter
-// avoir plus de tmeps je ferais une coouple de fonctions de plus.
-export const recommendationAlgorithm = (percent,posts, tweets, buyImage,neutralImage,sellImage, socialValue) => {
- 	if(socialValue === 'twitter') {
-		if (percent >= 0.3 && tweets > 3) return returnText(percent,buyImage)
-		else if (percent >= 0.3 && tweets <= 3) return returnText(percent,neutralImage)
-		else if (percent <= 0.3 && percent >= 0 && tweets > 6) return returnText(percent,buyImage)
-		else if (percent <= 0.3 && percent >= 0 && tweets <= 6) return returnText(percent,neutralImage)
-		else if (percent <= 0 && percent > -0.5 && tweets > 4) return returnText(percent,neutralImage)
-		else if (percent <= 0 && percent > -0.5 && tweets <= 4) return returnText(percent,sellImage)
-		else if (percent <= -0.5 && tweets > 8) return returnText(percent,neutralImage)
-		else if (percent <= -0.5 && tweets <= 8) return returnText(percent,sellImage)
-	 } else {
-		if (percent >= 0.3 && posts > 30) return returnText(percent,buyImage)
-		else if (percent >= 0.3 && posts <= 30) return returnText(percent,neutralImage)
-		else if (percent <= 0.3 && percent >= 0 && posts > 60) return returnText(percent,buyImage)
-		else if (percent <= 0.3 && percent >= 0 && posts <= 60) return returnText(percent,neutralImage)
-		else if (percent <= 0 && percent > -0.5 && posts > 40) return returnText(percent,neutralImage)
-		else if (percent <= 0 && percent > -0.5 && posts <= 40) return returnText(percent,sellImage)
-		else if (percent <= -0.5 && posts > 80) return returnText(percent,neutralImage)
-		else if (percent <= -0.5 && posts <= 80) return returnText(percent,sellImage)
-	 }
-
+// avoir plus de temps je ferais une couples de fonctions de plus.
+export const recommendationAlgorithm = (percent,posts,tweets,buyImage,neutralImage,sellImage,socialValue) => {
+	if (socialValue === 'twitter') {
+		if (percentageAlgo(percent,0.3,100,tweets,3,10)) return returnText(percent,buyImage)
+		else if (percentageAlgo(percent,0.3,100,tweets,0,3)) return returnText(percent,neutralImage)
+		else if (percentageAlgo(percent,0,0.3,tweets,6,10)) return returnText(percent,buyImage)
+		else if (percentageAlgo(percent,0,0.3,tweets,0,6)) return returnText(percent,neutralImage)
+		else if (percentageAlgo(percent,-0.5,0,tweets,4,10)) return returnText(percent,neutralImage)
+		else if (percentageAlgo(percent,-0.5,0,tweets,0,4)) return returnText(percent,sellImage)
+		else if (percentageAlgo(percent,-100,-0.5,tweets,9,10)) return returnText(percent,neutralImage)
+		else if (percentageAlgo(percent,-100,-0.5,tweets,0,9)) return returnText(percent,sellImage)
+	} else {
+		if (percentageAlgo(percent,0.3,100,posts,30,100)) return returnText(percent,buyImage)
+		else if (percentageAlgo(percent,0.3,100,posts,0,30)) return returnText(percent,neutralImage)
+		else if (percentageAlgo(percent,0,0.3,posts,60,100)) return returnText(percent,buyImage)
+		else if (percentageAlgo(percent,0,0.3,posts,0,60)) return returnText(percent,neutralImage)
+		else if (percentageAlgo(percent,-0.5,0,posts,40,100)) return returnText(percent,neutralImage)
+		else if (percentageAlgo(percent,-0.5,0,posts,0,40)) return returnText(percent,sellImage)
+		else if (percentageAlgo(percent,-100,-0.5,posts,90,100)) return returnText(percent,neutralImage)
+		else if (percentageAlgo(percent,-100,-0.5,posts,0,90)) return returnText(percent,sellImage)
+	}
 	return true
 }
 
-//genere un nombre de post d une entreprise
+
+//FN qui return true si oui au condition (%, min , max)
+function percentageAlgo (percentage,min,max,socialNetwork,qtelow,qteHigh) {
+	const stock = percentage >= min && percentage <= max; //return bool
+	const plateform = socialNetwork >= qtelow && socialNetwork <= qteHigh;
+	if (stock && plateform) return true
+	return false
+}
+
+
+//genere un nombre de post d une entreprise (factor est pour decider de la grandeur du nombre retourné)
 export const socialMediaCountGenerator = (factor) => Number.parseInt(Math.random() * factor);
 
 //calcule a 3 decimals le stock price
-export const percentageCalculator = (open, close) => Number((open - close) / open * -100.0).toFixed(3);;
+export const percentageCalculator = (open,close) => Number((open - close) / open * -100.0).toFixed(3);
+
+
