@@ -10,6 +10,8 @@ const iniialState = {
   socialValue: "twitter",
   stockName: null,
   stockData: [],
+  stockFull: [],
+  stockInitial: '',
   isLoading: false
 }
 class App extends Component {
@@ -28,16 +30,26 @@ class App extends Component {
     const stockName = await retrieveBusinessInfo();
     this.setState({ stockName });
   }
+
   //va chercher le data qui viendrait d un backend au lieu d un api gratuit.
+  //2 situations, on veut 1 seul call par entreprise. donc si present on garde.
   stockPriceGenerator = async (e) => {
     e.preventDefault();
-     const {stockInput, value} = this.state;
-    if (stockInput) {
-      const stockDataFull = await retrieveBusinessData(stockInput);
-      if(stockDataFull){
-        const stockData = stockDataFull.slice(0,  value); // retourne selon select le nombre de jour
-        this.setState({ stockData,  isLoading: !this.state.isLoading  });
-      }
+
+     const {stockInput, value, stockInitial, stockFull } = this.state;
+
+    //SI PREMIERE RECHERCHE
+    if (stockInitial !== stockInput) {
+      // console.log('full')
+      const stockFull = await retrieveBusinessData(stockInput);
+      const stockData = [...stockFull].slice(0, value);
+        //prend tout et qui vaut le nom
+        this.setState({ stockFull, stockData, stockInitial: stockInput });
+
+    } else {  //SI DEJA UNE ENTREPRISE AU TABLEAU
+      // console.log('actuelle')
+      const stockData = [...stockFull].slice(0, value);
+      this.setState({ stockData });
     }
   }
 
@@ -91,7 +103,7 @@ class App extends Component {
 
         {/* list component*/}
 
-       	  {stockData.length > 0 && <ListView data={stockData} />}
+       	  {stockData.length > 0 && <ListView data={stockData} socialValue={socialValue}/>}
 
 
       </div>

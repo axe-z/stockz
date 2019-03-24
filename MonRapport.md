@@ -1,6 +1,6 @@
 
 #NOTES SUR LE CODING CHALLENGE ET L'APP
-Bonjour, je punch out apres 5h23m, bien sur qu on peut toujours allez plus loin, mais on me parlait d'y mettre 3heures, donc content de mon effort. J' ai apprecié le challenge, j'aurais aimé continuer et y mettre les ideés que j'avais au depart ( D3.js ), mais le fait d'avoir qu' à utiliser que notre propres css rend les choses plus lentes. Le texte d'explication n'etait pas clair et fut mon plus grand test à vrai dire. Je sors de ce blitz de codage content ceci dit.
+Bonjour, je punch out apres 5h23m, bien sur qu on peut toujours allez plus loin, mais on me parlait d'y mettre 3heures, donc content de mon effort. J' ai apprecié le challenge, j'aurais aimé continuer et y mettre les ideés que j'avais au depart ( D3.js ), mais le fait d'avoir qu' à utiliser que notre propres css rend les choses plus lentes. Le texte d'explication n'etait pas clair et fut mon plus grand test à vrai dire. Je sors de ce blitz de codage content ceci dit avec une app qui donne la verité, parfaitement fonctionnelle outre le l algo de recommandation, qui fait du sens, mais ne prend pas les vrais posts ou tweets des entreprises . Mais le data fait du sens, c'etait mon but. Ce qui est "sell" selon facbook et le stock, ne sera jamais "buy" en regardant face à twitter.
 
 
 #PHILOSOPHIE

@@ -3,7 +3,7 @@ import ListItem from '../ListItem/ListItem';
 import { percentageCalculator } from '../../utilities';
 
 
-const ListView = ({ data }) => {
+const ListView = ({ data, socialValue }) => {
 	return data && (
 		<div className="listLimiter">
 			<div className="container-table100">
@@ -32,6 +32,8 @@ const ListView = ({ data }) => {
 												high={l['2. high']}
 												close={l['4. close']}
 												posts={l.posts}
+												tweets={l.tweets}
+												socialValue={socialValue}
 												verdict={percentageCalculator(l['1. open'],l['4. close'])} //%de profits / pertes
 											/>
 

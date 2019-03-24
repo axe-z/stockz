@@ -31,10 +31,12 @@ export const retrieveBusinessData = async (stock) => {
 	for (let key in output) {
 		stockDataHolder.push({
 			date: key,
-			posts: socialMediaCountGenerator(), // inserer le nombre post Ramdom
+			tweets: socialMediaCountGenerator(10), // insere moins de tweets pour twitter
+			posts: socialMediaCountGenerator(100), // insere plus de posts pour facebook
 			...output[key] //value
 		});
 	}
+	// console.log(stockDataHolder)
 	 if (stockDataHolder.length > 0) return stockDataHolder // retourne async
 		//si call depasse le max alloué. je n ai pas le temps pour batir un systeme de blocage.
 		//c'est complex quand un systeme block par par acces denied.
@@ -50,22 +52,34 @@ const returnText = (taux,imageSvg) => (<>
 	<span className="verdict">{taux} %</span> <span className="logoVerdict"><img src={imageSvg} alt="logo" width="90px" /></span>
 </>)
 
-//differents scenarios
-export const recommendationAlgorithm = (percent,posts,buyImage,neutralImage,sellImage) => {
-	// console.log(percent)
-	if (percent >= 0.3 && posts > 3) return returnText(percent,buyImage)
-	else if (percent >= 0.3 && posts <= 3) return returnText(percent,neutralImage)
-	else if (percent <= 0.3 && percent >= 0 && posts > 6) return returnText(percent,buyImage)
-	else if (percent <= 0.3 && percent >= 0 && posts <= 6) return returnText(percent,neutralImage)
-	else if (percent <= 0 && percent > -0.5 && posts > 4) return returnText(percent,neutralImage)
-	else if (percent <= 0 && percent > -0.5 && posts <= 4) return returnText(percent,sellImage)
-	else if (percent <= -0.5 && posts > 8) return returnText(percent,neutralImage)
-	else if (percent <= -0.5 && posts <= 8) return returnText(percent,sellImage)
+//differents scenarios pour facebook ou twitter
+// avoir plus de tmeps je ferais une coouple de fonctions de plus.
+export const recommendationAlgorithm = (percent,posts, tweets, buyImage,neutralImage,sellImage, socialValue) => {
+ 	if(socialValue === 'twitter') {
+		if (percent >= 0.3 && tweets > 3) return returnText(percent,buyImage)
+		else if (percent >= 0.3 && tweets <= 3) return returnText(percent,neutralImage)
+		else if (percent <= 0.3 && percent >= 0 && tweets > 6) return returnText(percent,buyImage)
+		else if (percent <= 0.3 && percent >= 0 && tweets <= 6) return returnText(percent,neutralImage)
+		else if (percent <= 0 && percent > -0.5 && tweets > 4) return returnText(percent,neutralImage)
+		else if (percent <= 0 && percent > -0.5 && tweets <= 4) return returnText(percent,sellImage)
+		else if (percent <= -0.5 && tweets > 8) return returnText(percent,neutralImage)
+		else if (percent <= -0.5 && tweets <= 8) return returnText(percent,sellImage)
+	 } else {
+		if (percent >= 0.3 && posts > 30) return returnText(percent,buyImage)
+		else if (percent >= 0.3 && posts <= 30) return returnText(percent,neutralImage)
+		else if (percent <= 0.3 && percent >= 0 && posts > 60) return returnText(percent,buyImage)
+		else if (percent <= 0.3 && percent >= 0 && posts <= 60) return returnText(percent,neutralImage)
+		else if (percent <= 0 && percent > -0.5 && posts > 40) return returnText(percent,neutralImage)
+		else if (percent <= 0 && percent > -0.5 && posts <= 40) return returnText(percent,sellImage)
+		else if (percent <= -0.5 && posts > 80) return returnText(percent,neutralImage)
+		else if (percent <= -0.5 && posts <= 80) return returnText(percent,sellImage)
+	 }
+
 	return true
 }
 
 //genere un nombre de post d une entreprise
-export const socialMediaCountGenerator = () => Number.parseInt(Math.random() * 10);
+export const socialMediaCountGenerator = (factor) => Number.parseInt(Math.random() * factor);
 
 //calcule a 3 decimals le stock price
 export const percentageCalculator = (open, close) => Number((open - close) / open * -100.0).toFixed(3);;

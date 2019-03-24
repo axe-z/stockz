@@ -5,9 +5,8 @@ import sell from '../../images/sell.svg';
 import {recommendationAlgorithm  } from '../../utilities';
 
 
-const ListItem = ({ date,opened,high,close,posts,verdict }) => {
-	// const buy = (<p>{verdict} % Buy!</p> )
-	// const createVerdict = verdict > 0.8 ? return buy
+const ListItem = ({ date,opened,high,close, tweets, posts,verdict , socialValue }) => {
+
 	return (
 
 		<>
@@ -15,8 +14,9 @@ const ListItem = ({ date,opened,high,close,posts,verdict }) => {
 			<td className="column2">{opened}</td>
 			<td className="column3">{high}</td>
 			<td className="column4">{close}</td>
-			<td className="column5">{posts}</td>
-			<td className="column6" style={{opacity: 0.65}}>{recommendationAlgorithm(verdict, posts, buy, neutral, sell )}</td>
+			<td className="column5">{socialValue === "twitter" ? tweets : posts }</td>
+			<td className="column6" style={{opacity: 0.65}}>{
+				socialValue === "twitter" ? recommendationAlgorithm(verdict, posts, tweets, buy, neutral, sell, socialValue ) : recommendationAlgorithm(verdict, posts, tweets, buy, neutral, sell, socialValue )}</td>
 		</>
 
 	);
