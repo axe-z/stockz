@@ -42,9 +42,13 @@ function AppHooks (props) {
     if (stockInitial !== stockInput) {
       // console.log('full')
       const stockFull = await retrieveBusinessData(stockInput);
-      const stockData = [...stockFull].slice(0,value);
-      //prend tout et qui vaut le nom
-      setState({ ...state,stockFull,stockData,stockInitial: stockInput });
+      // console.log(stockFull)
+      if(stockFull) {
+        const stockData = [...stockFull].slice(0,value);
+        //prend tout et qui vaut le nom
+        setState({ ...state,stockFull,stockData,stockInitial: stockInput });
+      }
+
 
     } else {  //SI DEJA UNE ENTREPRISE AU TABLEAU
       // console.log('actuelle')

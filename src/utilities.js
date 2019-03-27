@@ -26,22 +26,31 @@ export const retrieveBusinessData = async (stock) => {
 	const results = await fetch(url);
 	const response = await results.json();
 	const output = response["Time Series (Daily)"]
-	//flatten en gardant date et le reste et ajoutant posts
+	console.log(output)
+
+	if(output !== undefined ) {
+		// console.log(output)
+ 	//flatten en gardant date et le reste et ajoutant posts
 	let stockDataHolder = [];
-	for (let key in output) {
-		stockDataHolder.push({
-			date: key,
-			tweets: socialMediaCountGenerator(10), // insere moins de tweets pour twitter
-			posts: socialMediaCountGenerator(100), // insere plus de posts pour facebook
-			...output[key] //value
-		});
-	}
-	// console.log(stockDataHolder)
+		for (let key in output) {
+			stockDataHolder.push({
+				date: key,
+				tweets: socialMediaCountGenerator(10), // insere moins de tweets pour twitter
+				posts: socialMediaCountGenerator(100), // insere plus de posts pour facebook
+				...output[key] //value
+			});
+		}
+ 	// console.log(stockDataHolder)
 	if (stockDataHolder.length > 0) return stockDataHolder // retourne async
+	else return false
+	}
+
+
 	//si call depasse le max alloué. je n ai pas le temps pour batir un systeme de blocage plus avancé.
 	//c'est complex quand un systeme block par par acces denied, un backend ferait pas ca...
 	else {
 		alert(`${stock.toUpperCase()} might not exist on the markets - try again in 10sec.`)
+		return false
 	}
 }
 
