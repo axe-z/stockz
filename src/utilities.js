@@ -14,13 +14,13 @@ export const retrieveBusinessInfo = async () => {
 		const stockName = Object.values(flatName); //refait un array des values
 		return stockName //retourne le data pour montrer les info de logmein realtime
 	}
-
 }
 
 
 //Ici on aurait l entre du Backend - dans mon cas un api pas super, sans query de limit , mais gratuit.
 //prend seulement le symbol , retourne promesse.
 export const retrieveBusinessData = async (stock) => {
+	// console.log('called')
 	const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${stock}&apikey=${key}`
 
 	const results = await fetch(url);
@@ -44,6 +44,9 @@ export const retrieveBusinessData = async (stock) => {
 		alert(`${stock.toUpperCase()} might not exist on the markets - try again in 10sec.`)
 	}
 }
+
+
+
 
 
 //jsx icon et % profit

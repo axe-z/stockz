@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import buy from '../../images/buy.svg';
 import neutral from '../../images/neutral.svg';
 import sell from '../../images/sell.svg';
@@ -6,6 +6,7 @@ import {recommendationAlgorithm  } from '../../utilities';
 
 
 const ListItem = ({ date,opened,high,close, tweets, posts,verdict , socialValue }) => {
+
 
 	return (
 

@@ -1,41 +1,38 @@
-import React,{ Component } from 'react';
+import React,{  useState, useEffect } from 'react';
 import Header from './components/Header/Header';
 import ListView from './components/ListView/ListView';
 import { retrieveBusinessInfo, retrieveBusinessData } from './utilities';
 
 
-const iniialState = {
-  stockInput: '',
-  value: '10',
-  socialValue: "twitter",
-  stockName: null,
-  stockData: [],
-  stockFull: [],
-  stockInitial: '',
-  isLoading: false
-}
-class App extends Component {
-  state = {
-  ...iniialState
-  }
+function AppHooks (props){
+  const [state, setState] = useState({
+    stockInput: '',
+    value: '10',
+    socialValue: "twitter",
+    stockName: null,
+    stockData: [],
+    stockFull: [],
+    stockInitial: '',
+    isLoading: false
+  });
 
-  handleChange = event => {
+ const handleChange = event => {
     const { name,value } = event.target;
-    this.setState({ [name]: value });
+    setState({ ...state, [name]: value }); //pas de merge, donc reconstruit le state.
   };
 
- componentDidMount = async() =>  {
-   //Va chercher en direct la valeur boursiere de logmein
-    const stockName = await retrieveBusinessInfo();
-    this.setState({ stockName });
-  }
+//remplace cdm
+useEffect(async() => {
+  const stockName = await retrieveBusinessInfo();
+  setState({ ...state,stockName });
+ },[])
 
   //va chercher le data qui viendrait d un backend au lieu d un api gratuit.
   //2 situations, on veut 1 seul call par entreprise. donc si present on garde.
-  stockPriceGenerator = async (e) => {
+  const stockPriceGenerator = async (e) => {
     e.preventDefault();
 
-     const {stockInput, value, stockInitial, stockFull } = this.state;
+     const {stockInput, value, stockInitial, stockFull } =  state;
 
     //SI PREMIERE RECHERCHE
     if (stockInitial !== stockInput) {
@@ -43,23 +40,19 @@ class App extends Component {
       const stockFull = await retrieveBusinessData(stockInput);
       const stockData = [...stockFull].slice(0, value);
         //prend tout et qui vaut le nom
-        this.setState({ stockFull, stockData, stockInitial: stockInput });
+        setState({ ...state, stockFull, stockData, stockInitial: stockInput });
 
     } else {  //SI DEJA UNE ENTREPRISE AU TABLEAU
       // console.log('actuelle')
       const stockData = [...stockFull].slice(0, value);
-      this.setState({ stockData });
+      setState({ ...state, stockData });
     }
   }
-
-
-  render () {
-    const { stockInput,stockData,stockName,value,socialValue } = this.state;
 
     return (
       <div className="App">
         {/* Header component*/}
-        <Header stockName={stockName} />
+        <Header stockName={state.stockName} />
 
 
         {/* main app*/}
@@ -68,18 +61,18 @@ class App extends Component {
           <h5>- in 3 simple steps -</h5>
 
           {/* form */}
-          <form onSubmit={this.stockPriceGenerator} >
+          <form onSubmit={stockPriceGenerator} >
             <div className="cover">
               <h2 className="num">01/ <span> enter the symbol</span></h2>
               <div className="search">
                 <label htmlFor="stockInput" className="inp">
-                  <input type="text" name="stockInput" value={stockInput} onChange={this.handleChange}
+                  <input type="text" name="stockInput" value={state.stockInput} onChange={handleChange}
                   id="stockInput" className="searchInput" autoComplete="off" spellCheck="false" tabIndex="1" />
-                  <span className="label" style={this.state.stockInput ? { opacity: 0 } : null}>search...</span>
+                  <span className="label" style={state.stockInput ? { opacity: 0 } : null}>search...</span>
                 </label>
                 <div className="wrapSelect">
                   <h2 className="num">02/ <span> days reviewed</span></h2>
-                  <select name="value" value={value} onChange={this.handleChange} tabIndex="2">
+                  <select name="value" value={state.value} onChange={handleChange} tabIndex="2">
                     <option value="10">10 days</option>
                     <option value="20">20 days</option>
                     <option value="30">30 days</option>
@@ -89,26 +82,25 @@ class App extends Component {
                 </div>
                 <div className="wrapSelectSocial">
                   <h2 className="num">03/ <span> by social Media</span></h2>
-                  <select name="socialValue" value={socialValue} onChange={this.handleChange} tabIndex="3">
+                  <select name="socialValue" value={state.socialValue} onChange={handleChange} tabIndex="3">
                     <option value="twitter">twitter</option>
                     <option value="facebook">facebook</option>
                   </select>
                 </div>
               </div>
             </div>
-            <button type="submit" className="btnProjet" disabled={!stockInput} tabIndex="4">Go !</button>
+            <button type="submit" className="btnProjet" disabled={!state.stockInput} tabIndex="4">Go !</button>
           </form>
         </div>
 
         {/* list component*/}
 
-       	  {stockData.length > 0 && <ListView data={stockData} socialValue={socialValue}/>}
+       	  {state.stockData.length > 0 && <ListView data={state.stockData} socialValue={state.socialValue}/>}
 
 
       </div>
     );
   }
-}
 
-export default App;
+export default AppHooks;
 

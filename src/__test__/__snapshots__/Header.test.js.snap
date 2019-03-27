@@ -43,6 +43,9 @@ ShallowWrapper {
             <h6
               className="name"
             />
+            <p>
+              LogMeIn
+            </p>
             <h6
               className="valeur"
             />
@@ -83,6 +86,9 @@ ShallowWrapper {
               <h6
                 className="name"
               />
+              <p>
+                LogMeIn
+              </p>
               <h6
                 className="valeur"
               />
@@ -139,6 +145,9 @@ ShallowWrapper {
               <h6
                 className="name"
               />
+              <p>
+                LogMeIn
+              </p>
               <h6
                 className="valeur"
               />
@@ -164,6 +173,9 @@ ShallowWrapper {
                 <h6
                   className="name"
                 />,
+                <p>
+                  LogMeIn
+                </p>,
                 <h6
                   className="valeur"
                 />,
@@ -189,6 +201,17 @@ ShallowWrapper {
                 "ref": null,
                 "rendered": null,
                 "type": "h6",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "LogMeIn",
+                },
+                "ref": null,
+                "rendered": "LogMeIn",
+                "type": "p",
               },
               Object {
                 "instance": null,
@@ -264,6 +287,9 @@ ShallowWrapper {
               <h6
                 className="name"
               />
+              <p>
+                LogMeIn
+              </p>
               <h6
                 className="valeur"
               />
@@ -304,6 +330,9 @@ ShallowWrapper {
                 <h6
                   className="name"
                 />
+                <p>
+                  LogMeIn
+                </p>
                 <h6
                   className="valeur"
                 />
@@ -360,6 +389,9 @@ ShallowWrapper {
                 <h6
                   className="name"
                 />
+                <p>
+                  LogMeIn
+                </p>
                 <h6
                   className="valeur"
                 />
@@ -385,6 +417,9 @@ ShallowWrapper {
                   <h6
                     className="name"
                   />,
+                  <p>
+                    LogMeIn
+                  </p>,
                   <h6
                     className="valeur"
                   />,
@@ -410,6 +445,17 @@ ShallowWrapper {
                   "ref": null,
                   "rendered": null,
                   "type": "h6",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "LogMeIn",
+                  },
+                  "ref": null,
+                  "rendered": "LogMeIn",
+                  "type": "p",
                 },
                 Object {
                   "instance": null,
@@ -524,6 +570,9 @@ ShallowWrapper {
             <h6
               className="name"
             />
+            <p>
+              LogMeIn
+            </p>
             <h6
               className="valeur"
             />
@@ -564,6 +613,9 @@ ShallowWrapper {
               <h6
                 className="name"
               />
+              <p>
+                LogMeIn
+              </p>
               <h6
                 className="valeur"
               />
@@ -620,6 +672,9 @@ ShallowWrapper {
               <h6
                 className="name"
               />
+              <p>
+                LogMeIn
+              </p>
               <h6
                 className="valeur"
               />
@@ -645,6 +700,9 @@ ShallowWrapper {
                 <h6
                   className="name"
                 />,
+                <p>
+                  LogMeIn
+                </p>,
                 <h6
                   className="valeur"
                 />,
@@ -670,6 +728,17 @@ ShallowWrapper {
                 "ref": null,
                 "rendered": null,
                 "type": "h6",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "LogMeIn",
+                },
+                "ref": null,
+                "rendered": "LogMeIn",
+                "type": "p",
               },
               Object {
                 "instance": null,
@@ -745,6 +814,9 @@ ShallowWrapper {
               <h6
                 className="name"
               />
+              <p>
+                LogMeIn
+              </p>
               <h6
                 className="valeur"
               />
@@ -785,6 +857,9 @@ ShallowWrapper {
                 <h6
                   className="name"
                 />
+                <p>
+                  LogMeIn
+                </p>
                 <h6
                   className="valeur"
                 />
@@ -841,6 +916,9 @@ ShallowWrapper {
                 <h6
                   className="name"
                 />
+                <p>
+                  LogMeIn
+                </p>
                 <h6
                   className="valeur"
                 />
@@ -866,6 +944,9 @@ ShallowWrapper {
                   <h6
                     className="name"
                   />,
+                  <p>
+                    LogMeIn
+                  </p>,
                   <h6
                     className="valeur"
                   />,
@@ -891,6 +972,17 @@ ShallowWrapper {
                   "ref": null,
                   "rendered": null,
                   "type": "h6",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "LogMeIn",
+                  },
+                  "ref": null,
+                  "rendered": "LogMeIn",
+                  "type": "p",
                 },
                 Object {
                   "instance": null,

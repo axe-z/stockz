@@ -109,6 +109,9 @@ ReactWrapper {
                             <h6
                               class="name"
                             />
+                            <p>
+                              LogMeIn
+                            </p>
                             <h6
                               class="valeur"
                             />
@@ -365,6 +368,9 @@ ReactWrapper {
                           <h6
                             class="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             class="valeur"
                           />
@@ -618,6 +624,9 @@ ReactWrapper {
                             <h6
                               class="name"
                             />
+                            <p>
+                              LogMeIn
+                            </p>
                             <h6
                               class="valeur"
                             />
@@ -874,6 +883,9 @@ ReactWrapper {
                           <h6
                             class="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             class="valeur"
                           />
@@ -1099,8 +1111,8 @@ ReactWrapper {
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
-            "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-            "lineNumber": 49,
+            "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+            "lineNumber": 60,
           },
           "actualDuration": 0,
           "actualStartTime": -1,
@@ -1111,8 +1123,8 @@ ReactWrapper {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-              "lineNumber": 51,
+              "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+              "lineNumber": 62,
             },
             "actualDuration": 0,
             "actualStartTime": -1,
@@ -1123,7 +1135,7 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                 "lineNumber": 14,
               },
               "actualDuration": 0,
@@ -1135,7 +1147,7 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                  "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                   "lineNumber": 15,
                 },
                 "actualDuration": 0,
@@ -1147,7 +1159,7 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                    "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                     "lineNumber": 16,
                   },
                   "actualDuration": 0,
@@ -1186,7 +1198,7 @@ ReactWrapper {
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
-                        "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                        "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                         "lineNumber": 16,
                       },
                       "actualDuration": 0,
@@ -1266,7 +1278,7 @@ ReactWrapper {
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
-                      "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                      "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                       "lineNumber": 18,
                     },
                     "actualDuration": 0,
@@ -1278,7 +1290,7 @@ ReactWrapper {
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
-                        "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                        "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                         "lineNumber": 19,
                       },
                       "actualDuration": 0,
@@ -1290,7 +1302,7 @@ ReactWrapper {
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
-                          "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                          "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                           "lineNumber": 20,
                         },
                         "actualDuration": 0,
@@ -1326,7 +1338,7 @@ ReactWrapper {
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
-                            "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                            "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                             "lineNumber": 21,
                           },
                           "actualDuration": 0,
@@ -1336,22 +1348,20 @@ ReactWrapper {
                           "childExpirationTime": 0,
                           "contextDependencies": null,
                           "effectTag": 0,
-                          "elementType": "h6",
+                          "elementType": "p",
                           "expirationTime": 0,
                           "firstEffect": null,
                           "index": 1,
                           "key": null,
                           "lastEffect": null,
                           "memoizedProps": Object {
-                            "children": null,
-                            "className": "valeur",
+                            "children": "LogMeIn",
                           },
                           "memoizedState": null,
                           "mode": 0,
                           "nextEffect": null,
                           "pendingProps": Object {
-                            "children": null,
-                            "className": "valeur",
+                            "children": "LogMeIn",
                           },
                           "ref": null,
                           "return": [Circular],
@@ -1362,7 +1372,7 @@ ReactWrapper {
                             "_debugIsCurrentlyTiming": false,
                             "_debugOwner": [Circular],
                             "_debugSource": Object {
-                              "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                              "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                               "lineNumber": 22,
                             },
                             "actualDuration": 0,
@@ -1372,20 +1382,22 @@ ReactWrapper {
                             "childExpirationTime": 0,
                             "contextDependencies": null,
                             "effectTag": 0,
-                            "elementType": "p",
+                            "elementType": "h6",
                             "expirationTime": 0,
                             "firstEffect": null,
                             "index": 2,
                             "key": null,
                             "lastEffect": null,
                             "memoizedProps": Object {
-                              "children": "last updated:",
+                              "children": null,
+                              "className": "valeur",
                             },
                             "memoizedState": null,
                             "mode": 0,
                             "nextEffect": null,
                             "pendingProps": Object {
-                              "children": "last updated:",
+                              "children": null,
+                              "className": "valeur",
                             },
                             "ref": null,
                             "return": [Circular],
@@ -1396,7 +1408,7 @@ ReactWrapper {
                               "_debugIsCurrentlyTiming": false,
                               "_debugOwner": [Circular],
                               "_debugSource": Object {
-                                "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                                "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                                 "lineNumber": 23,
                               },
                               "actualDuration": 0,
@@ -1406,49 +1418,91 @@ ReactWrapper {
                               "childExpirationTime": 0,
                               "contextDependencies": null,
                               "effectTag": 0,
-                              "elementType": "h6",
+                              "elementType": "p",
                               "expirationTime": 0,
                               "firstEffect": null,
                               "index": 3,
                               "key": null,
                               "lastEffect": null,
                               "memoizedProps": Object {
-                                "children": null,
-                                "className": "date",
+                                "children": "last updated:",
                               },
                               "memoizedState": null,
                               "mode": 0,
                               "nextEffect": null,
                               "pendingProps": Object {
-                                "children": null,
-                                "className": "date",
+                                "children": "last updated:",
                               },
                               "ref": null,
                               "return": [Circular],
                               "selfBaseDuration": 0,
-                              "sibling": null,
-                              "stateNode": <h6
-                                class="date"
-                              />,
+                              "sibling": FiberNode {
+                                "_debugHookTypes": null,
+                                "_debugID": 74,
+                                "_debugIsCurrentlyTiming": false,
+                                "_debugOwner": [Circular],
+                                "_debugSource": Object {
+                                  "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
+                                  "lineNumber": 24,
+                                },
+                                "actualDuration": 0,
+                                "actualStartTime": -1,
+                                "alternate": null,
+                                "child": null,
+                                "childExpirationTime": 0,
+                                "contextDependencies": null,
+                                "effectTag": 0,
+                                "elementType": "h6",
+                                "expirationTime": 0,
+                                "firstEffect": null,
+                                "index": 4,
+                                "key": null,
+                                "lastEffect": null,
+                                "memoizedProps": Object {
+                                  "children": null,
+                                  "className": "date",
+                                },
+                                "memoizedState": null,
+                                "mode": 0,
+                                "nextEffect": null,
+                                "pendingProps": Object {
+                                  "children": null,
+                                  "className": "date",
+                                },
+                                "ref": null,
+                                "return": [Circular],
+                                "selfBaseDuration": 0,
+                                "sibling": null,
+                                "stateNode": <h6
+                                  class="date"
+                                />,
+                                "tag": 5,
+                                "treeBaseDuration": 0,
+                                "type": "h6",
+                                "updateQueue": null,
+                              },
+                              "stateNode": <p>
+                                last updated:
+                              </p>,
                               "tag": 5,
                               "treeBaseDuration": 0,
-                              "type": "h6",
+                              "type": "p",
                               "updateQueue": null,
                             },
-                            "stateNode": <p>
-                              last updated:
-                            </p>,
+                            "stateNode": <h6
+                              class="valeur"
+                            />,
                             "tag": 5,
                             "treeBaseDuration": 0,
-                            "type": "p",
+                            "type": "h6",
                             "updateQueue": null,
                           },
-                          "stateNode": <h6
-                            class="valeur"
-                          />,
+                          "stateNode": <p>
+                            LogMeIn
+                          </p>,
                           "tag": 5,
                           "treeBaseDuration": 0,
-                          "type": "h6",
+                          "type": "p",
                           "updateQueue": null,
                         },
                         "stateNode": <h6
@@ -1473,6 +1527,9 @@ ReactWrapper {
                           <h6
                             className="name"
                           />,
+                          <p>
+                            LogMeIn
+                          </p>,
                           <h6
                             className="valeur"
                           />,
@@ -1493,6 +1550,9 @@ ReactWrapper {
                           <h6
                             className="name"
                           />,
+                          <p>
+                            LogMeIn
+                          </p>,
                           <h6
                             className="valeur"
                           />,
@@ -1515,6 +1575,9 @@ ReactWrapper {
                         <h6
                           class="name"
                         />
+                        <p>
+                          LogMeIn
+                        </p>
                         <h6
                           class="valeur"
                         />
@@ -1546,6 +1609,9 @@ ReactWrapper {
                         <h6
                           className="name"
                         />
+                        <p>
+                          LogMeIn
+                        </p>
                         <h6
                           className="valeur"
                         />
@@ -1571,6 +1637,9 @@ ReactWrapper {
                         <h6
                           className="name"
                         />
+                        <p>
+                          LogMeIn
+                        </p>
                         <h6
                           className="valeur"
                         />
@@ -1600,6 +1669,9 @@ ReactWrapper {
                         <h6
                           class="name"
                         />
+                        <p>
+                          LogMeIn
+                        </p>
                         <h6
                           class="valeur"
                         />
@@ -1658,6 +1730,9 @@ ReactWrapper {
                         <h6
                           className="name"
                         />
+                        <p>
+                          LogMeIn
+                        </p>
                         <h6
                           className="valeur"
                         />
@@ -1697,6 +1772,9 @@ ReactWrapper {
                         <h6
                           className="name"
                         />
+                        <p>
+                          LogMeIn
+                        </p>
                         <h6
                           className="valeur"
                         />
@@ -1734,6 +1812,9 @@ ReactWrapper {
                       <h6
                         class="name"
                       />
+                      <p>
+                        LogMeIn
+                      </p>
                       <h6
                         class="valeur"
                       />
@@ -1784,6 +1865,9 @@ ReactWrapper {
                       <h6
                         className="name"
                       />
+                      <p>
+                        LogMeIn
+                      </p>
                       <h6
                         className="valeur"
                       />
@@ -1824,6 +1908,9 @@ ReactWrapper {
                       <h6
                         className="name"
                       />
+                      <p>
+                        LogMeIn
+                      </p>
                       <h6
                         className="valeur"
                       />
@@ -1861,6 +1948,9 @@ ReactWrapper {
                       <h6
                         class="name"
                       />
+                      <p>
+                        LogMeIn
+                      </p>
                       <h6
                         class="valeur"
                       />
@@ -1906,20 +1996,20 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                "lineNumber": 55,
+                "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                "lineNumber": 66,
               },
               "actualDuration": 0,
               "actualStartTime": -1,
               "alternate": null,
               "child": FiberNode {
                 "_debugHookTypes": null,
-                "_debugID": 74,
+                "_debugID": 75,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                  "lineNumber": 56,
+                  "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                  "lineNumber": 67,
                 },
                 "actualDuration": 0,
                 "actualStartTime": -1,
@@ -1950,12 +2040,12 @@ ReactWrapper {
                 "selfBaseDuration": 0,
                 "sibling": FiberNode {
                   "_debugHookTypes": null,
-                  "_debugID": 75,
+                  "_debugID": 76,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                    "lineNumber": 57,
+                    "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                    "lineNumber": 68,
                   },
                   "actualDuration": 0,
                   "actualStartTime": -1,
@@ -1984,43 +2074,43 @@ ReactWrapper {
                   "selfBaseDuration": 0,
                   "sibling": FiberNode {
                     "_debugHookTypes": null,
-                    "_debugID": 76,
+                    "_debugID": 77,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
-                      "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                      "lineNumber": 59,
+                      "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                      "lineNumber": 71,
                     },
                     "actualDuration": 0,
                     "actualStartTime": -1,
                     "alternate": null,
                     "child": FiberNode {
                       "_debugHookTypes": null,
-                      "_debugID": 77,
+                      "_debugID": 78,
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
-                        "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                        "lineNumber": 60,
+                        "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                        "lineNumber": 72,
                       },
                       "actualDuration": 0,
                       "actualStartTime": -1,
                       "alternate": null,
                       "child": FiberNode {
                         "_debugHookTypes": null,
-                        "_debugID": 79,
+                        "_debugID": 80,
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
-                          "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                          "lineNumber": 61,
+                          "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                          "lineNumber": 73,
                         },
                         "actualDuration": 0,
                         "actualStartTime": -1,
                         "alternate": null,
                         "child": FiberNode {
                           "_debugHookTypes": null,
-                          "_debugID": 81,
+                          "_debugID": 82,
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": null,
                           "_debugSource": null,
@@ -2047,12 +2137,12 @@ ReactWrapper {
                           "selfBaseDuration": 0,
                           "sibling": FiberNode {
                             "_debugHookTypes": null,
-                            "_debugID": 82,
+                            "_debugID": 83,
                             "_debugIsCurrentlyTiming": false,
                             "_debugOwner": [Circular],
                             "_debugSource": Object {
-                              "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                              "lineNumber": 61,
+                              "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                              "lineNumber": 73,
                             },
                             "actualDuration": 0,
                             "actualStartTime": -1,
@@ -2129,36 +2219,36 @@ ReactWrapper {
                         "selfBaseDuration": 0,
                         "sibling": FiberNode {
                           "_debugHookTypes": null,
-                          "_debugID": 80,
+                          "_debugID": 81,
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
-                            "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                            "lineNumber": 62,
+                            "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                            "lineNumber": 74,
                           },
                           "actualDuration": 0,
                           "actualStartTime": -1,
                           "alternate": null,
                           "child": FiberNode {
                             "_debugHookTypes": null,
-                            "_debugID": 83,
+                            "_debugID": 84,
                             "_debugIsCurrentlyTiming": false,
                             "_debugOwner": [Circular],
                             "_debugSource": Object {
-                              "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                              "lineNumber": 63,
+                              "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                              "lineNumber": 75,
                             },
                             "actualDuration": 0,
                             "actualStartTime": -1,
                             "alternate": null,
                             "child": FiberNode {
                               "_debugHookTypes": null,
-                              "_debugID": 86,
+                              "_debugID": 87,
                               "_debugIsCurrentlyTiming": false,
                               "_debugOwner": [Circular],
                               "_debugSource": Object {
-                                "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                "lineNumber": 64,
+                                "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                "lineNumber": 76,
                               },
                               "actualDuration": 0,
                               "actualStartTime": -1,
@@ -2203,12 +2293,12 @@ ReactWrapper {
                               "selfBaseDuration": 0,
                               "sibling": FiberNode {
                                 "_debugHookTypes": null,
-                                "_debugID": 87,
+                                "_debugID": 88,
                                 "_debugIsCurrentlyTiming": false,
                                 "_debugOwner": [Circular],
                                 "_debugSource": Object {
-                                  "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                  "lineNumber": 66,
+                                  "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                  "lineNumber": 78,
                                 },
                                 "actualDuration": 0,
                                 "actualStartTime": -1,
@@ -2328,31 +2418,31 @@ ReactWrapper {
                             "selfBaseDuration": 0,
                             "sibling": FiberNode {
                               "_debugHookTypes": null,
-                              "_debugID": 84,
+                              "_debugID": 85,
                               "_debugIsCurrentlyTiming": false,
                               "_debugOwner": [Circular],
                               "_debugSource": Object {
-                                "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                "lineNumber": 68,
+                                "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                "lineNumber": 80,
                               },
                               "actualDuration": 0,
                               "actualStartTime": -1,
                               "alternate": null,
                               "child": FiberNode {
                                 "_debugHookTypes": null,
-                                "_debugID": 88,
+                                "_debugID": 89,
                                 "_debugIsCurrentlyTiming": false,
                                 "_debugOwner": [Circular],
                                 "_debugSource": Object {
-                                  "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                  "lineNumber": 69,
+                                  "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                  "lineNumber": 81,
                                 },
                                 "actualDuration": 0,
                                 "actualStartTime": -1,
                                 "alternate": null,
                                 "child": FiberNode {
                                   "_debugHookTypes": null,
-                                  "_debugID": 90,
+                                  "_debugID": 91,
                                   "_debugIsCurrentlyTiming": false,
                                   "_debugOwner": null,
                                   "_debugSource": null,
@@ -2379,12 +2469,12 @@ ReactWrapper {
                                   "selfBaseDuration": 0,
                                   "sibling": FiberNode {
                                     "_debugHookTypes": null,
-                                    "_debugID": 91,
+                                    "_debugID": 92,
                                     "_debugIsCurrentlyTiming": false,
                                     "_debugOwner": [Circular],
                                     "_debugSource": Object {
-                                      "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                      "lineNumber": 69,
+                                      "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                      "lineNumber": 81,
                                     },
                                     "actualDuration": 0,
                                     "actualStartTime": -1,
@@ -2461,24 +2551,24 @@ ReactWrapper {
                                 "selfBaseDuration": 0,
                                 "sibling": FiberNode {
                                   "_debugHookTypes": null,
-                                  "_debugID": 89,
+                                  "_debugID": 90,
                                   "_debugIsCurrentlyTiming": false,
                                   "_debugOwner": [Circular],
                                   "_debugSource": Object {
-                                    "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                    "lineNumber": 70,
+                                    "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                    "lineNumber": 82,
                                   },
                                   "actualDuration": 0,
                                   "actualStartTime": -1,
                                   "alternate": null,
                                   "child": FiberNode {
                                     "_debugHookTypes": null,
-                                    "_debugID": 92,
+                                    "_debugID": 93,
                                     "_debugIsCurrentlyTiming": false,
                                     "_debugOwner": [Circular],
                                     "_debugSource": Object {
-                                      "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                      "lineNumber": 71,
+                                      "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                      "lineNumber": 83,
                                     },
                                     "actualDuration": 0,
                                     "actualStartTime": -1,
@@ -2509,12 +2599,12 @@ ReactWrapper {
                                     "selfBaseDuration": 0,
                                     "sibling": FiberNode {
                                       "_debugHookTypes": null,
-                                      "_debugID": 93,
+                                      "_debugID": 94,
                                       "_debugIsCurrentlyTiming": false,
                                       "_debugOwner": [Circular],
                                       "_debugSource": Object {
-                                        "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                        "lineNumber": 72,
+                                        "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                        "lineNumber": 84,
                                       },
                                       "actualDuration": 0,
                                       "actualStartTime": -1,
@@ -2545,12 +2635,12 @@ ReactWrapper {
                                       "selfBaseDuration": 0,
                                       "sibling": FiberNode {
                                         "_debugHookTypes": null,
-                                        "_debugID": 94,
+                                        "_debugID": 95,
                                         "_debugIsCurrentlyTiming": false,
                                         "_debugOwner": [Circular],
                                         "_debugSource": Object {
-                                          "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                          "lineNumber": 73,
+                                          "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                          "lineNumber": 85,
                                         },
                                         "actualDuration": 0,
                                         "actualStartTime": -1,
@@ -2581,12 +2671,12 @@ ReactWrapper {
                                         "selfBaseDuration": 0,
                                         "sibling": FiberNode {
                                           "_debugHookTypes": null,
-                                          "_debugID": 95,
+                                          "_debugID": 96,
                                           "_debugIsCurrentlyTiming": false,
                                           "_debugOwner": [Circular],
                                           "_debugSource": Object {
-                                            "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                            "lineNumber": 74,
+                                            "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                            "lineNumber": 86,
                                           },
                                           "actualDuration": 0,
                                           "actualStartTime": -1,
@@ -2617,12 +2707,12 @@ ReactWrapper {
                                           "selfBaseDuration": 0,
                                           "sibling": FiberNode {
                                             "_debugHookTypes": null,
-                                            "_debugID": 96,
+                                            "_debugID": 97,
                                             "_debugIsCurrentlyTiming": false,
                                             "_debugOwner": [Circular],
                                             "_debugSource": Object {
-                                              "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                              "lineNumber": 75,
+                                              "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                              "lineNumber": 87,
                                             },
                                             "actualDuration": 0,
                                             "actualStartTime": -1,
@@ -2939,31 +3029,31 @@ ReactWrapper {
                               "selfBaseDuration": 0,
                               "sibling": FiberNode {
                                 "_debugHookTypes": null,
-                                "_debugID": 85,
+                                "_debugID": 86,
                                 "_debugIsCurrentlyTiming": false,
                                 "_debugOwner": [Circular],
                                 "_debugSource": Object {
-                                  "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                  "lineNumber": 78,
+                                  "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                  "lineNumber": 90,
                                 },
                                 "actualDuration": 0,
                                 "actualStartTime": -1,
                                 "alternate": null,
                                 "child": FiberNode {
                                   "_debugHookTypes": null,
-                                  "_debugID": 97,
+                                  "_debugID": 98,
                                   "_debugIsCurrentlyTiming": false,
                                   "_debugOwner": [Circular],
                                   "_debugSource": Object {
-                                    "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                    "lineNumber": 79,
+                                    "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                    "lineNumber": 91,
                                   },
                                   "actualDuration": 0,
                                   "actualStartTime": -1,
                                   "alternate": null,
                                   "child": FiberNode {
                                     "_debugHookTypes": null,
-                                    "_debugID": 99,
+                                    "_debugID": 100,
                                     "_debugIsCurrentlyTiming": false,
                                     "_debugOwner": null,
                                     "_debugSource": null,
@@ -2990,12 +3080,12 @@ ReactWrapper {
                                     "selfBaseDuration": 0,
                                     "sibling": FiberNode {
                                       "_debugHookTypes": null,
-                                      "_debugID": 100,
+                                      "_debugID": 101,
                                       "_debugIsCurrentlyTiming": false,
                                       "_debugOwner": [Circular],
                                       "_debugSource": Object {
-                                        "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                        "lineNumber": 79,
+                                        "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                        "lineNumber": 91,
                                       },
                                       "actualDuration": 0,
                                       "actualStartTime": -1,
@@ -3072,24 +3162,24 @@ ReactWrapper {
                                   "selfBaseDuration": 0,
                                   "sibling": FiberNode {
                                     "_debugHookTypes": null,
-                                    "_debugID": 98,
+                                    "_debugID": 99,
                                     "_debugIsCurrentlyTiming": false,
                                     "_debugOwner": [Circular],
                                     "_debugSource": Object {
-                                      "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                      "lineNumber": 80,
+                                      "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                      "lineNumber": 92,
                                     },
                                     "actualDuration": 0,
                                     "actualStartTime": -1,
                                     "alternate": null,
                                     "child": FiberNode {
                                       "_debugHookTypes": null,
-                                      "_debugID": 101,
+                                      "_debugID": 102,
                                       "_debugIsCurrentlyTiming": false,
                                       "_debugOwner": [Circular],
                                       "_debugSource": Object {
-                                        "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                        "lineNumber": 81,
+                                        "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                        "lineNumber": 93,
                                       },
                                       "actualDuration": 0,
                                       "actualStartTime": -1,
@@ -3120,12 +3210,12 @@ ReactWrapper {
                                       "selfBaseDuration": 0,
                                       "sibling": FiberNode {
                                         "_debugHookTypes": null,
-                                        "_debugID": 102,
+                                        "_debugID": 103,
                                         "_debugIsCurrentlyTiming": false,
                                         "_debugOwner": [Circular],
                                         "_debugSource": Object {
-                                          "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                          "lineNumber": 82,
+                                          "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                          "lineNumber": 94,
                                         },
                                         "actualDuration": 0,
                                         "actualStartTime": -1,
@@ -4008,12 +4098,12 @@ ReactWrapper {
                       "selfBaseDuration": 0,
                       "sibling": FiberNode {
                         "_debugHookTypes": null,
-                        "_debugID": 78,
+                        "_debugID": 79,
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
-                          "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                          "lineNumber": 87,
+                          "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                          "lineNumber": 99,
                         },
                         "actualDuration": 0,
                         "actualStartTime": -1,
@@ -5327,6 +5417,9 @@ ReactWrapper {
                     <h6
                       class="name"
                     />
+                    <p>
+                      LogMeIn
+                    </p>
                     <h6
                       class="valeur"
                     />
@@ -5487,6 +5580,8 @@ ReactWrapper {
           "isLoading": false,
           "socialValue": "twitter",
           "stockData": Array [],
+          "stockFull": Array [],
+          "stockInitial": "",
           "stockInput": "",
           "stockName": null,
           "value": "10",
@@ -5583,6 +5678,9 @@ ReactWrapper {
                             <h6
                               class="name"
                             />
+                            <p>
+                              LogMeIn
+                            </p>
                             <h6
                               class="valeur"
                             />
@@ -5839,6 +5937,9 @@ ReactWrapper {
                           <h6
                             class="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             class="valeur"
                           />
@@ -6092,6 +6193,9 @@ ReactWrapper {
                             <h6
                               class="name"
                             />
+                            <p>
+                              LogMeIn
+                            </p>
                             <h6
                               class="valeur"
                             />
@@ -6348,6 +6452,9 @@ ReactWrapper {
                           <h6
                             class="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             class="valeur"
                           />
@@ -6656,6 +6763,9 @@ ReactWrapper {
                             <h6
                               class="name"
                             />
+                            <p>
+                              LogMeIn
+                            </p>
                             <h6
                               class="valeur"
                             />
@@ -6912,6 +7022,9 @@ ReactWrapper {
                           <h6
                             class="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             class="valeur"
                           />
@@ -7165,6 +7278,9 @@ ReactWrapper {
                             <h6
                               class="name"
                             />
+                            <p>
+                              LogMeIn
+                            </p>
                             <h6
                               class="valeur"
                             />
@@ -7421,6 +7537,9 @@ ReactWrapper {
                           <h6
                             class="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             class="valeur"
                           />
@@ -7654,6 +7773,8 @@ ReactWrapper {
         "isLoading": false,
         "socialValue": "twitter",
         "stockData": Array [],
+        "stockFull": Array [],
+        "stockInitial": "",
         "stockInput": "",
         "stockName": null,
         "value": "10",
@@ -7694,6 +7815,9 @@ ReactWrapper {
                 <h6
                   class="name"
                 />
+                <p>
+                  LogMeIn
+                </p>
                 <h6
                   class="valeur"
                 />
@@ -8012,6 +8136,9 @@ ReactWrapper {
                     <h6
                       class="name"
                     />
+                    <p>
+                      LogMeIn
+                    </p>
                     <h6
                       class="valeur"
                     />
@@ -8051,6 +8178,9 @@ ReactWrapper {
                     <h6
                       className="name"
                     />
+                    <p>
+                      LogMeIn
+                    </p>
                     <h6
                       className="valeur"
                     />
@@ -8086,6 +8216,9 @@ ReactWrapper {
                       <h6
                         class="name"
                       />
+                      <p>
+                        LogMeIn
+                      </p>
                       <h6
                         class="valeur"
                       />
@@ -8122,6 +8255,9 @@ ReactWrapper {
                         <h6
                           className="name"
                         />
+                        <p>
+                          LogMeIn
+                        </p>
                         <h6
                           className="valeur"
                         />
@@ -8187,6 +8323,9 @@ ReactWrapper {
                         <h6
                           class="name"
                         />
+                        <p>
+                          LogMeIn
+                        </p>
                         <h6
                           class="valeur"
                         />
@@ -8207,6 +8346,9 @@ ReactWrapper {
                         <h6
                           className="name"
                         />
+                        <p>
+                          LogMeIn
+                        </p>
                         <h6
                           className="valeur"
                         />
@@ -8231,6 +8373,9 @@ ReactWrapper {
                           <h6
                             class="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             class="valeur"
                           />
@@ -8248,6 +8393,9 @@ ReactWrapper {
                             <h6
                               className="name"
                             />,
+                            <p>
+                              LogMeIn
+                            </p>,
                             <h6
                               className="valeur"
                             />,
@@ -8277,6 +8425,21 @@ ReactWrapper {
                               null,
                             ],
                             "type": "h6",
+                          },
+                          Object {
+                            "instance": <p>
+                              LogMeIn
+                            </p>,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "LogMeIn",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              "LogMeIn",
+                            ],
+                            "type": "p",
                           },
                           Object {
                             "instance": <h6
@@ -10064,6 +10227,9 @@ ReactWrapper {
                               <h6
                                 class="name"
                               />
+                              <p>
+                                LogMeIn
+                              </p>
                               <h6
                                 class="valeur"
                               />
@@ -10320,6 +10486,9 @@ ReactWrapper {
                             <h6
                               class="name"
                             />
+                            <p>
+                              LogMeIn
+                            </p>
                             <h6
                               class="valeur"
                             />
@@ -10573,6 +10742,9 @@ ReactWrapper {
                               <h6
                                 class="name"
                               />
+                              <p>
+                                LogMeIn
+                              </p>
                               <h6
                                 class="valeur"
                               />
@@ -10829,6 +11001,9 @@ ReactWrapper {
                             <h6
                               class="name"
                             />
+                            <p>
+                              LogMeIn
+                            </p>
                             <h6
                               class="valeur"
                             />
@@ -11054,8 +11229,8 @@ ReactWrapper {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-              "lineNumber": 49,
+              "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+              "lineNumber": 60,
             },
             "actualDuration": 0,
             "actualStartTime": -1,
@@ -11066,8 +11241,8 @@ ReactWrapper {
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": Object {
-                "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                "lineNumber": 51,
+                "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                "lineNumber": 62,
               },
               "actualDuration": 0,
               "actualStartTime": -1,
@@ -11078,7 +11253,7 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                  "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                   "lineNumber": 14,
                 },
                 "actualDuration": 0,
@@ -11090,7 +11265,7 @@ ReactWrapper {
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                    "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                     "lineNumber": 15,
                   },
                   "actualDuration": 0,
@@ -11102,7 +11277,7 @@ ReactWrapper {
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
-                      "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                      "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                       "lineNumber": 16,
                     },
                     "actualDuration": 0,
@@ -11141,7 +11316,7 @@ ReactWrapper {
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
-                          "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                          "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                           "lineNumber": 16,
                         },
                         "actualDuration": 0,
@@ -11221,7 +11396,7 @@ ReactWrapper {
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
-                        "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                        "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                         "lineNumber": 18,
                       },
                       "actualDuration": 0,
@@ -11233,7 +11408,7 @@ ReactWrapper {
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
-                          "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                          "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                           "lineNumber": 19,
                         },
                         "actualDuration": 0,
@@ -11245,7 +11420,7 @@ ReactWrapper {
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
-                            "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                            "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                             "lineNumber": 20,
                           },
                           "actualDuration": 0,
@@ -11281,7 +11456,7 @@ ReactWrapper {
                             "_debugIsCurrentlyTiming": false,
                             "_debugOwner": [Circular],
                             "_debugSource": Object {
-                              "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                              "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                               "lineNumber": 21,
                             },
                             "actualDuration": 0,
@@ -11291,22 +11466,20 @@ ReactWrapper {
                             "childExpirationTime": 0,
                             "contextDependencies": null,
                             "effectTag": 0,
-                            "elementType": "h6",
+                            "elementType": "p",
                             "expirationTime": 0,
                             "firstEffect": null,
                             "index": 1,
                             "key": null,
                             "lastEffect": null,
                             "memoizedProps": Object {
-                              "children": null,
-                              "className": "valeur",
+                              "children": "LogMeIn",
                             },
                             "memoizedState": null,
                             "mode": 0,
                             "nextEffect": null,
                             "pendingProps": Object {
-                              "children": null,
-                              "className": "valeur",
+                              "children": "LogMeIn",
                             },
                             "ref": null,
                             "return": [Circular],
@@ -11317,7 +11490,7 @@ ReactWrapper {
                               "_debugIsCurrentlyTiming": false,
                               "_debugOwner": [Circular],
                               "_debugSource": Object {
-                                "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                                "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                                 "lineNumber": 22,
                               },
                               "actualDuration": 0,
@@ -11327,20 +11500,22 @@ ReactWrapper {
                               "childExpirationTime": 0,
                               "contextDependencies": null,
                               "effectTag": 0,
-                              "elementType": "p",
+                              "elementType": "h6",
                               "expirationTime": 0,
                               "firstEffect": null,
                               "index": 2,
                               "key": null,
                               "lastEffect": null,
                               "memoizedProps": Object {
-                                "children": "last updated:",
+                                "children": null,
+                                "className": "valeur",
                               },
                               "memoizedState": null,
                               "mode": 0,
                               "nextEffect": null,
                               "pendingProps": Object {
-                                "children": "last updated:",
+                                "children": null,
+                                "className": "valeur",
                               },
                               "ref": null,
                               "return": [Circular],
@@ -11351,7 +11526,7 @@ ReactWrapper {
                                 "_debugIsCurrentlyTiming": false,
                                 "_debugOwner": [Circular],
                                 "_debugSource": Object {
-                                  "fileName": "/Users/axez/Desktop/bourse/src/components/Header/Header.js",
+                                  "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
                                   "lineNumber": 23,
                                 },
                                 "actualDuration": 0,
@@ -11361,49 +11536,91 @@ ReactWrapper {
                                 "childExpirationTime": 0,
                                 "contextDependencies": null,
                                 "effectTag": 0,
-                                "elementType": "h6",
+                                "elementType": "p",
                                 "expirationTime": 0,
                                 "firstEffect": null,
                                 "index": 3,
                                 "key": null,
                                 "lastEffect": null,
                                 "memoizedProps": Object {
-                                  "children": null,
-                                  "className": "date",
+                                  "children": "last updated:",
                                 },
                                 "memoizedState": null,
                                 "mode": 0,
                                 "nextEffect": null,
                                 "pendingProps": Object {
-                                  "children": null,
-                                  "className": "date",
+                                  "children": "last updated:",
                                 },
                                 "ref": null,
                                 "return": [Circular],
                                 "selfBaseDuration": 0,
-                                "sibling": null,
-                                "stateNode": <h6
-                                  class="date"
-                                />,
+                                "sibling": FiberNode {
+                                  "_debugHookTypes": null,
+                                  "_debugID": 74,
+                                  "_debugIsCurrentlyTiming": false,
+                                  "_debugOwner": [Circular],
+                                  "_debugSource": Object {
+                                    "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/components/Header/Header.js",
+                                    "lineNumber": 24,
+                                  },
+                                  "actualDuration": 0,
+                                  "actualStartTime": -1,
+                                  "alternate": null,
+                                  "child": null,
+                                  "childExpirationTime": 0,
+                                  "contextDependencies": null,
+                                  "effectTag": 0,
+                                  "elementType": "h6",
+                                  "expirationTime": 0,
+                                  "firstEffect": null,
+                                  "index": 4,
+                                  "key": null,
+                                  "lastEffect": null,
+                                  "memoizedProps": Object {
+                                    "children": null,
+                                    "className": "date",
+                                  },
+                                  "memoizedState": null,
+                                  "mode": 0,
+                                  "nextEffect": null,
+                                  "pendingProps": Object {
+                                    "children": null,
+                                    "className": "date",
+                                  },
+                                  "ref": null,
+                                  "return": [Circular],
+                                  "selfBaseDuration": 0,
+                                  "sibling": null,
+                                  "stateNode": <h6
+                                    class="date"
+                                  />,
+                                  "tag": 5,
+                                  "treeBaseDuration": 0,
+                                  "type": "h6",
+                                  "updateQueue": null,
+                                },
+                                "stateNode": <p>
+                                  last updated:
+                                </p>,
                                 "tag": 5,
                                 "treeBaseDuration": 0,
-                                "type": "h6",
+                                "type": "p",
                                 "updateQueue": null,
                               },
-                              "stateNode": <p>
-                                last updated:
-                              </p>,
+                              "stateNode": <h6
+                                class="valeur"
+                              />,
                               "tag": 5,
                               "treeBaseDuration": 0,
-                              "type": "p",
+                              "type": "h6",
                               "updateQueue": null,
                             },
-                            "stateNode": <h6
-                              class="valeur"
-                            />,
+                            "stateNode": <p>
+                              LogMeIn
+                            </p>,
                             "tag": 5,
                             "treeBaseDuration": 0,
-                            "type": "h6",
+                            "type": "p",
                             "updateQueue": null,
                           },
                           "stateNode": <h6
@@ -11428,6 +11645,9 @@ ReactWrapper {
                             <h6
                               className="name"
                             />,
+                            <p>
+                              LogMeIn
+                            </p>,
                             <h6
                               className="valeur"
                             />,
@@ -11448,6 +11668,9 @@ ReactWrapper {
                             <h6
                               className="name"
                             />,
+                            <p>
+                              LogMeIn
+                            </p>,
                             <h6
                               className="valeur"
                             />,
@@ -11470,6 +11693,9 @@ ReactWrapper {
                           <h6
                             class="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             class="valeur"
                           />
@@ -11501,6 +11727,9 @@ ReactWrapper {
                           <h6
                             className="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             className="valeur"
                           />
@@ -11526,6 +11755,9 @@ ReactWrapper {
                           <h6
                             className="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             className="valeur"
                           />
@@ -11555,6 +11787,9 @@ ReactWrapper {
                           <h6
                             class="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             class="valeur"
                           />
@@ -11613,6 +11848,9 @@ ReactWrapper {
                           <h6
                             className="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             className="valeur"
                           />
@@ -11652,6 +11890,9 @@ ReactWrapper {
                           <h6
                             className="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             className="valeur"
                           />
@@ -11689,6 +11930,9 @@ ReactWrapper {
                         <h6
                           class="name"
                         />
+                        <p>
+                          LogMeIn
+                        </p>
                         <h6
                           class="valeur"
                         />
@@ -11739,6 +11983,9 @@ ReactWrapper {
                         <h6
                           className="name"
                         />
+                        <p>
+                          LogMeIn
+                        </p>
                         <h6
                           className="valeur"
                         />
@@ -11779,6 +12026,9 @@ ReactWrapper {
                         <h6
                           className="name"
                         />
+                        <p>
+                          LogMeIn
+                        </p>
                         <h6
                           className="valeur"
                         />
@@ -11816,6 +12066,9 @@ ReactWrapper {
                         <h6
                           class="name"
                         />
+                        <p>
+                          LogMeIn
+                        </p>
                         <h6
                           class="valeur"
                         />
@@ -11861,20 +12114,20 @@ ReactWrapper {
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
-                  "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                  "lineNumber": 55,
+                  "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                  "lineNumber": 66,
                 },
                 "actualDuration": 0,
                 "actualStartTime": -1,
                 "alternate": null,
                 "child": FiberNode {
                   "_debugHookTypes": null,
-                  "_debugID": 74,
+                  "_debugID": 75,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
-                    "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                    "lineNumber": 56,
+                    "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                    "lineNumber": 67,
                   },
                   "actualDuration": 0,
                   "actualStartTime": -1,
@@ -11905,12 +12158,12 @@ ReactWrapper {
                   "selfBaseDuration": 0,
                   "sibling": FiberNode {
                     "_debugHookTypes": null,
-                    "_debugID": 75,
+                    "_debugID": 76,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
-                      "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                      "lineNumber": 57,
+                      "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                      "lineNumber": 68,
                     },
                     "actualDuration": 0,
                     "actualStartTime": -1,
@@ -11939,43 +12192,43 @@ ReactWrapper {
                     "selfBaseDuration": 0,
                     "sibling": FiberNode {
                       "_debugHookTypes": null,
-                      "_debugID": 76,
+                      "_debugID": 77,
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
-                        "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                        "lineNumber": 59,
+                        "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                        "lineNumber": 71,
                       },
                       "actualDuration": 0,
                       "actualStartTime": -1,
                       "alternate": null,
                       "child": FiberNode {
                         "_debugHookTypes": null,
-                        "_debugID": 77,
+                        "_debugID": 78,
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
-                          "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                          "lineNumber": 60,
+                          "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                          "lineNumber": 72,
                         },
                         "actualDuration": 0,
                         "actualStartTime": -1,
                         "alternate": null,
                         "child": FiberNode {
                           "_debugHookTypes": null,
-                          "_debugID": 79,
+                          "_debugID": 80,
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
-                            "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                            "lineNumber": 61,
+                            "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                            "lineNumber": 73,
                           },
                           "actualDuration": 0,
                           "actualStartTime": -1,
                           "alternate": null,
                           "child": FiberNode {
                             "_debugHookTypes": null,
-                            "_debugID": 81,
+                            "_debugID": 82,
                             "_debugIsCurrentlyTiming": false,
                             "_debugOwner": null,
                             "_debugSource": null,
@@ -12002,12 +12255,12 @@ ReactWrapper {
                             "selfBaseDuration": 0,
                             "sibling": FiberNode {
                               "_debugHookTypes": null,
-                              "_debugID": 82,
+                              "_debugID": 83,
                               "_debugIsCurrentlyTiming": false,
                               "_debugOwner": [Circular],
                               "_debugSource": Object {
-                                "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                "lineNumber": 61,
+                                "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                "lineNumber": 73,
                               },
                               "actualDuration": 0,
                               "actualStartTime": -1,
@@ -12084,36 +12337,36 @@ ReactWrapper {
                           "selfBaseDuration": 0,
                           "sibling": FiberNode {
                             "_debugHookTypes": null,
-                            "_debugID": 80,
+                            "_debugID": 81,
                             "_debugIsCurrentlyTiming": false,
                             "_debugOwner": [Circular],
                             "_debugSource": Object {
-                              "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                              "lineNumber": 62,
+                              "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                              "lineNumber": 74,
                             },
                             "actualDuration": 0,
                             "actualStartTime": -1,
                             "alternate": null,
                             "child": FiberNode {
                               "_debugHookTypes": null,
-                              "_debugID": 83,
+                              "_debugID": 84,
                               "_debugIsCurrentlyTiming": false,
                               "_debugOwner": [Circular],
                               "_debugSource": Object {
-                                "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                "lineNumber": 63,
+                                "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                "lineNumber": 75,
                               },
                               "actualDuration": 0,
                               "actualStartTime": -1,
                               "alternate": null,
                               "child": FiberNode {
                                 "_debugHookTypes": null,
-                                "_debugID": 86,
+                                "_debugID": 87,
                                 "_debugIsCurrentlyTiming": false,
                                 "_debugOwner": [Circular],
                                 "_debugSource": Object {
-                                  "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                  "lineNumber": 64,
+                                  "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                  "lineNumber": 76,
                                 },
                                 "actualDuration": 0,
                                 "actualStartTime": -1,
@@ -12158,12 +12411,12 @@ ReactWrapper {
                                 "selfBaseDuration": 0,
                                 "sibling": FiberNode {
                                   "_debugHookTypes": null,
-                                  "_debugID": 87,
+                                  "_debugID": 88,
                                   "_debugIsCurrentlyTiming": false,
                                   "_debugOwner": [Circular],
                                   "_debugSource": Object {
-                                    "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                    "lineNumber": 66,
+                                    "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                    "lineNumber": 78,
                                   },
                                   "actualDuration": 0,
                                   "actualStartTime": -1,
@@ -12283,31 +12536,31 @@ ReactWrapper {
                               "selfBaseDuration": 0,
                               "sibling": FiberNode {
                                 "_debugHookTypes": null,
-                                "_debugID": 84,
+                                "_debugID": 85,
                                 "_debugIsCurrentlyTiming": false,
                                 "_debugOwner": [Circular],
                                 "_debugSource": Object {
-                                  "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                  "lineNumber": 68,
+                                  "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                  "lineNumber": 80,
                                 },
                                 "actualDuration": 0,
                                 "actualStartTime": -1,
                                 "alternate": null,
                                 "child": FiberNode {
                                   "_debugHookTypes": null,
-                                  "_debugID": 88,
+                                  "_debugID": 89,
                                   "_debugIsCurrentlyTiming": false,
                                   "_debugOwner": [Circular],
                                   "_debugSource": Object {
-                                    "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                    "lineNumber": 69,
+                                    "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                    "lineNumber": 81,
                                   },
                                   "actualDuration": 0,
                                   "actualStartTime": -1,
                                   "alternate": null,
                                   "child": FiberNode {
                                     "_debugHookTypes": null,
-                                    "_debugID": 90,
+                                    "_debugID": 91,
                                     "_debugIsCurrentlyTiming": false,
                                     "_debugOwner": null,
                                     "_debugSource": null,
@@ -12334,12 +12587,12 @@ ReactWrapper {
                                     "selfBaseDuration": 0,
                                     "sibling": FiberNode {
                                       "_debugHookTypes": null,
-                                      "_debugID": 91,
+                                      "_debugID": 92,
                                       "_debugIsCurrentlyTiming": false,
                                       "_debugOwner": [Circular],
                                       "_debugSource": Object {
-                                        "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                        "lineNumber": 69,
+                                        "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                        "lineNumber": 81,
                                       },
                                       "actualDuration": 0,
                                       "actualStartTime": -1,
@@ -12416,24 +12669,24 @@ ReactWrapper {
                                   "selfBaseDuration": 0,
                                   "sibling": FiberNode {
                                     "_debugHookTypes": null,
-                                    "_debugID": 89,
+                                    "_debugID": 90,
                                     "_debugIsCurrentlyTiming": false,
                                     "_debugOwner": [Circular],
                                     "_debugSource": Object {
-                                      "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                      "lineNumber": 70,
+                                      "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                      "lineNumber": 82,
                                     },
                                     "actualDuration": 0,
                                     "actualStartTime": -1,
                                     "alternate": null,
                                     "child": FiberNode {
                                       "_debugHookTypes": null,
-                                      "_debugID": 92,
+                                      "_debugID": 93,
                                       "_debugIsCurrentlyTiming": false,
                                       "_debugOwner": [Circular],
                                       "_debugSource": Object {
-                                        "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                        "lineNumber": 71,
+                                        "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                        "lineNumber": 83,
                                       },
                                       "actualDuration": 0,
                                       "actualStartTime": -1,
@@ -12464,12 +12717,12 @@ ReactWrapper {
                                       "selfBaseDuration": 0,
                                       "sibling": FiberNode {
                                         "_debugHookTypes": null,
-                                        "_debugID": 93,
+                                        "_debugID": 94,
                                         "_debugIsCurrentlyTiming": false,
                                         "_debugOwner": [Circular],
                                         "_debugSource": Object {
-                                          "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                          "lineNumber": 72,
+                                          "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                          "lineNumber": 84,
                                         },
                                         "actualDuration": 0,
                                         "actualStartTime": -1,
@@ -12500,12 +12753,12 @@ ReactWrapper {
                                         "selfBaseDuration": 0,
                                         "sibling": FiberNode {
                                           "_debugHookTypes": null,
-                                          "_debugID": 94,
+                                          "_debugID": 95,
                                           "_debugIsCurrentlyTiming": false,
                                           "_debugOwner": [Circular],
                                           "_debugSource": Object {
-                                            "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                            "lineNumber": 73,
+                                            "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                            "lineNumber": 85,
                                           },
                                           "actualDuration": 0,
                                           "actualStartTime": -1,
@@ -12536,12 +12789,12 @@ ReactWrapper {
                                           "selfBaseDuration": 0,
                                           "sibling": FiberNode {
                                             "_debugHookTypes": null,
-                                            "_debugID": 95,
+                                            "_debugID": 96,
                                             "_debugIsCurrentlyTiming": false,
                                             "_debugOwner": [Circular],
                                             "_debugSource": Object {
-                                              "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                              "lineNumber": 74,
+                                              "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                              "lineNumber": 86,
                                             },
                                             "actualDuration": 0,
                                             "actualStartTime": -1,
@@ -12572,12 +12825,12 @@ ReactWrapper {
                                             "selfBaseDuration": 0,
                                             "sibling": FiberNode {
                                               "_debugHookTypes": null,
-                                              "_debugID": 96,
+                                              "_debugID": 97,
                                               "_debugIsCurrentlyTiming": false,
                                               "_debugOwner": [Circular],
                                               "_debugSource": Object {
-                                                "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                                "lineNumber": 75,
+                                                "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                                "lineNumber": 87,
                                               },
                                               "actualDuration": 0,
                                               "actualStartTime": -1,
@@ -12894,31 +13147,31 @@ ReactWrapper {
                                 "selfBaseDuration": 0,
                                 "sibling": FiberNode {
                                   "_debugHookTypes": null,
-                                  "_debugID": 85,
+                                  "_debugID": 86,
                                   "_debugIsCurrentlyTiming": false,
                                   "_debugOwner": [Circular],
                                   "_debugSource": Object {
-                                    "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                    "lineNumber": 78,
+                                    "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                    "lineNumber": 90,
                                   },
                                   "actualDuration": 0,
                                   "actualStartTime": -1,
                                   "alternate": null,
                                   "child": FiberNode {
                                     "_debugHookTypes": null,
-                                    "_debugID": 97,
+                                    "_debugID": 98,
                                     "_debugIsCurrentlyTiming": false,
                                     "_debugOwner": [Circular],
                                     "_debugSource": Object {
-                                      "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                      "lineNumber": 79,
+                                      "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                      "lineNumber": 91,
                                     },
                                     "actualDuration": 0,
                                     "actualStartTime": -1,
                                     "alternate": null,
                                     "child": FiberNode {
                                       "_debugHookTypes": null,
-                                      "_debugID": 99,
+                                      "_debugID": 100,
                                       "_debugIsCurrentlyTiming": false,
                                       "_debugOwner": null,
                                       "_debugSource": null,
@@ -12945,12 +13198,12 @@ ReactWrapper {
                                       "selfBaseDuration": 0,
                                       "sibling": FiberNode {
                                         "_debugHookTypes": null,
-                                        "_debugID": 100,
+                                        "_debugID": 101,
                                         "_debugIsCurrentlyTiming": false,
                                         "_debugOwner": [Circular],
                                         "_debugSource": Object {
-                                          "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                          "lineNumber": 79,
+                                          "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                          "lineNumber": 91,
                                         },
                                         "actualDuration": 0,
                                         "actualStartTime": -1,
@@ -13027,24 +13280,24 @@ ReactWrapper {
                                     "selfBaseDuration": 0,
                                     "sibling": FiberNode {
                                       "_debugHookTypes": null,
-                                      "_debugID": 98,
+                                      "_debugID": 99,
                                       "_debugIsCurrentlyTiming": false,
                                       "_debugOwner": [Circular],
                                       "_debugSource": Object {
-                                        "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                        "lineNumber": 80,
+                                        "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                        "lineNumber": 92,
                                       },
                                       "actualDuration": 0,
                                       "actualStartTime": -1,
                                       "alternate": null,
                                       "child": FiberNode {
                                         "_debugHookTypes": null,
-                                        "_debugID": 101,
+                                        "_debugID": 102,
                                         "_debugIsCurrentlyTiming": false,
                                         "_debugOwner": [Circular],
                                         "_debugSource": Object {
-                                          "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                          "lineNumber": 81,
+                                          "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                          "lineNumber": 93,
                                         },
                                         "actualDuration": 0,
                                         "actualStartTime": -1,
@@ -13075,12 +13328,12 @@ ReactWrapper {
                                         "selfBaseDuration": 0,
                                         "sibling": FiberNode {
                                           "_debugHookTypes": null,
-                                          "_debugID": 102,
+                                          "_debugID": 103,
                                           "_debugIsCurrentlyTiming": false,
                                           "_debugOwner": [Circular],
                                           "_debugSource": Object {
-                                            "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                                            "lineNumber": 82,
+                                            "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                                            "lineNumber": 94,
                                           },
                                           "actualDuration": 0,
                                           "actualStartTime": -1,
@@ -13963,12 +14216,12 @@ ReactWrapper {
                         "selfBaseDuration": 0,
                         "sibling": FiberNode {
                           "_debugHookTypes": null,
-                          "_debugID": 78,
+                          "_debugID": 79,
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
-                            "fileName": "/Users/axez/Desktop/bourse/src/App.js",
-                            "lineNumber": 87,
+                            "fileName": "/Users/axez/Desktop/8-Template de depart/bourse/src/App.js",
+                            "lineNumber": 99,
                           },
                           "actualDuration": 0,
                           "actualStartTime": -1,
@@ -15282,6 +15535,9 @@ ReactWrapper {
                       <h6
                         class="name"
                       />
+                      <p>
+                        LogMeIn
+                      </p>
                       <h6
                         class="valeur"
                       />
@@ -15442,6 +15698,8 @@ ReactWrapper {
             "isLoading": false,
             "socialValue": "twitter",
             "stockData": Array [],
+            "stockFull": Array [],
+            "stockInitial": "",
             "stockInput": "",
             "stockName": null,
             "value": "10",
@@ -15538,6 +15796,9 @@ ReactWrapper {
                               <h6
                                 class="name"
                               />
+                              <p>
+                                LogMeIn
+                              </p>
                               <h6
                                 class="valeur"
                               />
@@ -15794,6 +16055,9 @@ ReactWrapper {
                             <h6
                               class="name"
                             />
+                            <p>
+                              LogMeIn
+                            </p>
                             <h6
                               class="valeur"
                             />
@@ -16047,6 +16311,9 @@ ReactWrapper {
                               <h6
                                 class="name"
                               />
+                              <p>
+                                LogMeIn
+                              </p>
                               <h6
                                 class="valeur"
                               />
@@ -16303,6 +16570,9 @@ ReactWrapper {
                             <h6
                               class="name"
                             />
+                            <p>
+                              LogMeIn
+                            </p>
                             <h6
                               class="valeur"
                             />
@@ -16611,6 +16881,9 @@ ReactWrapper {
                               <h6
                                 class="name"
                               />
+                              <p>
+                                LogMeIn
+                              </p>
                               <h6
                                 class="valeur"
                               />
@@ -16867,6 +17140,9 @@ ReactWrapper {
                             <h6
                               class="name"
                             />
+                            <p>
+                              LogMeIn
+                            </p>
                             <h6
                               class="valeur"
                             />
@@ -17120,6 +17396,9 @@ ReactWrapper {
                               <h6
                                 class="name"
                               />
+                              <p>
+                                LogMeIn
+                              </p>
                               <h6
                                 class="valeur"
                               />
@@ -17376,6 +17655,9 @@ ReactWrapper {
                             <h6
                               class="name"
                             />
+                            <p>
+                              LogMeIn
+                            </p>
                             <h6
                               class="valeur"
                             />
@@ -17609,6 +17891,8 @@ ReactWrapper {
           "isLoading": false,
           "socialValue": "twitter",
           "stockData": Array [],
+          "stockFull": Array [],
+          "stockInitial": "",
           "stockInput": "",
           "stockName": null,
           "value": "10",
@@ -17649,6 +17933,9 @@ ReactWrapper {
                   <h6
                     class="name"
                   />
+                  <p>
+                    LogMeIn
+                  </p>
                   <h6
                     class="valeur"
                   />
@@ -17967,6 +18254,9 @@ ReactWrapper {
                       <h6
                         class="name"
                       />
+                      <p>
+                        LogMeIn
+                      </p>
                       <h6
                         class="valeur"
                       />
@@ -18006,6 +18296,9 @@ ReactWrapper {
                       <h6
                         className="name"
                       />
+                      <p>
+                        LogMeIn
+                      </p>
                       <h6
                         className="valeur"
                       />
@@ -18041,6 +18334,9 @@ ReactWrapper {
                         <h6
                           class="name"
                         />
+                        <p>
+                          LogMeIn
+                        </p>
                         <h6
                           class="valeur"
                         />
@@ -18077,6 +18373,9 @@ ReactWrapper {
                           <h6
                             className="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             className="valeur"
                           />
@@ -18142,6 +18441,9 @@ ReactWrapper {
                           <h6
                             class="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             class="valeur"
                           />
@@ -18162,6 +18464,9 @@ ReactWrapper {
                           <h6
                             className="name"
                           />
+                          <p>
+                            LogMeIn
+                          </p>
                           <h6
                             className="valeur"
                           />
@@ -18186,6 +18491,9 @@ ReactWrapper {
                             <h6
                               class="name"
                             />
+                            <p>
+                              LogMeIn
+                            </p>
                             <h6
                               class="valeur"
                             />
@@ -18203,6 +18511,9 @@ ReactWrapper {
                               <h6
                                 className="name"
                               />,
+                              <p>
+                                LogMeIn
+                              </p>,
                               <h6
                                 className="valeur"
                               />,
@@ -18232,6 +18543,21 @@ ReactWrapper {
                                 null,
                               ],
                               "type": "h6",
+                            },
+                            Object {
+                              "instance": <p>
+                                LogMeIn
+                              </p>,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "LogMeIn",
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                "LogMeIn",
+                              ],
+                              "type": "p",
                             },
                             Object {
                               "instance": <h6
